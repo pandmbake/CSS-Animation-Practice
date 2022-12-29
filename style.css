@@ -1,0 +1,50 @@
+html {
+    cursor: url("R.png"), auto;
+    
+   
+}
+
+.container:hover .follow-cursor {
+    top: calc(50% - (image-height / 2));
+    left: calc(50% - (image-width / 2));
+}
+
+body {
+    font-family: 'Creepster', cursive;
+    font-size: 2em;
+    cursor: url("R.png"), auto;
+    background-image: url("Nursery (1).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+
+}
+
+#baby {
+    width: 6em;
+    position: relative;
+    top: -20px;
+    transition: transform .1s
+
+}
+
+.left {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.right {
+    -moz-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
